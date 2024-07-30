@@ -1,5 +1,7 @@
 // datatype conversions and oprations video
 
+/**************** conversion ****************/
+
 // let score = "33";
 
 // console.log(typeof(score));
@@ -36,3 +38,8 @@ let number = 86;
 let stringNumber = String(number);
 console.log(stringNumber);
 console.log(typeof(stringNumber));
+
+// 86 = output 86
+// true = output true
+// ayyaz = output ayyaz
+
