@@ -1,3 +1,5 @@
+// let, const and var video
+
 const accountId = 1973923;
 let accountEmail = "abc@cde.com";
 var accountPassword = "12345";
