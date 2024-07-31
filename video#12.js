@@ -1,4 +1,4 @@
-/****** Array part#1 in Javascript ******/
+/****** Array part#1 in Javascript. ******/
 
 const myArr1 = [1, 2, 3, 4, 5];
 // console.log(myArr1[0]);
