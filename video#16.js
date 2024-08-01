@@ -23,7 +23,7 @@ console.log(courseInstructor);
  *****/
 
 
- /*----- JSON API intro -----*/ 
+ /*------ JSON API intro ------*/ 
 
  // it is not object.object has a name.like up examples. it is json.
 // {
