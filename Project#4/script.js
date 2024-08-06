@@ -33,4 +33,9 @@ form.addEventListener("submit", (event) => {
     }
     guessRemaining.innerHTML = count--;
   }
+
+  if (count === 0) {
+    guess.innerHTML = "GAME OVER";
+  }
+
 });
