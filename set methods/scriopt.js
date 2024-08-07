@@ -36,7 +36,7 @@ document.querySelector('#stop').addEventListener('click', (e)=>{
 
 
 
-// ++++++++++++++++ second file code ++++++++++++++++
+// ++++++++++++++++ second file code +++++++++++++++
 
 
 /******     setInterval() method      ******/
