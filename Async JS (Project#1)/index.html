@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timeout methods</title>
+    <title>Body BG Changer</title>
+    <style>
+        body{
+            background-color: #212121;
+            color: #fff;
+            text-align: center;
+        }
+
+        div{
+            max-width: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #hexCode{
+            padding: 10px 20px;
+            background-color: #212121;
+            display: inline;
+        }
+        button{
+            padding: 10px 30px;
+            font-size: 18px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bytewise</h1>
-    <button id="stop">stop</button>
+    <div>
+        <h1>Click Start Button to Change Background Every Second</h1>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+         <br>
+         <br>
+        <h1 id="hexCode"></h1>
+    </div>
 </body>
+<script src="./script.js"></script>
 </html>
